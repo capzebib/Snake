@@ -18,7 +18,6 @@ window.setInterval(() => {
 
     snake.grow(tailElement);
     map.appendChild(tailElement);
-    // let total = 0;
     food.randomPlace();
     food.drawFood();
   }

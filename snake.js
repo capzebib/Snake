@@ -1,5 +1,5 @@
 function Snake(domElement) {
-  this.x = 15;
+  this.x = 10;
   this.y = 10;
   this.xSpeed = 1;
   this.ySpeed = 1;
@@ -93,13 +93,14 @@ function Snake(domElement) {
   };
 
   this.eat = function(food) {
-    // this.total++;
     if (this.x === food.x && this.y === food.y) {
       this.total++;
+
       var audio = new Audio(
         "./Sounds/zapsplat_human_crunch_potato_chip_crumb_002_11064.mp3"
       );
       audio.play();
+
       return true;
     } else {
       return false;

@@ -12,8 +12,8 @@ body {
     display: grid;
     /* background-color: rgb(8, 22, 4); */
     border: 5px solid rgb(255, 208, 0);
-    grid-template-columns: repeat(30, 40px);
-    grid-template-rows: repeat(20, 40px);
+    grid-template-columns: repeat(30, 20px);
+    grid-template-rows: repeat(20, 20px);
     width: max-content;
     height: max-content;
     background-image: url("./images/citrouille.jpeg");
@@ -42,8 +42,8 @@ body {
 .score {
     border: 5px solid rgb(223, 174, 15);
     text-decoration-color: black;
-    width: 100px;
-    height: 400px;
+    width: 200px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -55,8 +55,8 @@ body {
 .title {
     border: 5px solid rgb(223, 174, 15);
     text-decoration-color: black;
-    width: 100px;
-    height: 400px;
+    width: 200px;
+    height: 500px;
     display: flex;
     /* justify-content: space-around; */
     /* align-content: space-around; */
