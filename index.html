@@ -8,17 +8,23 @@
 
     <script src="./food.js"></script>
     <script src="./snake.js"></script>
+    <script src="./tail.js"></script>
     <script type="module" src="./index.js"></script>
     <link rel="stylesheet" href="./sheet.css">
-    <title>Snakegame</title>
+    <title>Snake CHARMER</title>
 </head>
 
 <body>
+    <div class="title">SNAKE <br> CHARMER
+        <!-- <input type="button" value="START/PAUSE" id="stp_btn" onclick="startGame()"> -->
+    </div>
     <div class="map" id="map">
         <div class="snake" id="snake"></div>
         <div class="food" id="food"></div>
     </div>
-
+    <div class="score">
+        <span>0</span>
+    </div>
 </body>
 
 </html>

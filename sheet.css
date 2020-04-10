@@ -1,26 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
 .map {
     display: grid;
-    background-color: rgb(8, 22, 4);
-    border: 3px solid rgb(255, 208, 0);
-    grid-template-columns: repeat(30, 20px);
-    grid-template-rows: repeat(20, 20px);
+    /* background-color: rgb(8, 22, 4); */
+    border: 5px solid rgb(255, 208, 0);
+    grid-template-columns: repeat(30, 40px);
+    grid-template-rows: repeat(20, 40px);
     width: max-content;
     height: max-content;
+    background-image: url("./images/citrouille.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .snake {
-    border: 5px solid red;
-    /* width: 5px;
-    height: 5px; */
+    background-image: url("./images/witch.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .food {
-    border: 1px solid rgba(255, 174, 0, 0.788);
+    background-image: url("./images/chauve-s2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-/* .grid-container {
-    display: grid;
-    grid-template-columns: repeat(10, 100px);
-    grid-template-columns: 20px 20px;
-    width: max-content;
-} */
+.tail {
+    background-image: url("./images/marmite.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.score {
+    border: 5px solid rgb(223, 174, 15);
+    text-decoration-color: black;
+    width: 100px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2em
+}
+
+.title {
+    border: 5px solid rgb(223, 174, 15);
+    text-decoration-color: black;
+    width: 100px;
+    height: 400px;
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-content: space-around; */
+    align-items: center;
+    /* align-content: space-around; */
+    /* text-align: center; */
+}
+
+#stp_btn {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
