@@ -25,6 +25,7 @@ body {
     background-image: url("./images/witch.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
+
 }
 
 .food {
@@ -58,11 +59,11 @@ body {
     width: 200px;
     height: 500px;
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: center;
     /* align-content: space-around; */
     align-items: center;
     /* align-content: space-around; */
-    /* text-align: center; */
+    text-align: center;
 }
 
 #stp_btn {
