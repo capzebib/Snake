@@ -12,8 +12,8 @@ body {
     display: grid;
     /* background-color: rgb(8, 22, 4); */
     border: 5px solid rgb(255, 208, 0);
-    grid-template-columns: repeat(30, 20px);
-    grid-template-rows: repeat(20, 20px);
+    grid-template-columns: repeat(30, 40px);
+    grid-template-rows: repeat(20, 40px);
     width: max-content;
     height: max-content;
     background-image: url("./images/citrouille.jpeg");
